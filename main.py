@@ -3,10 +3,10 @@ import requests
 import json
 from weather import *
 
-token = 'DISCORD_BOT_TOKEN'
-api_key = 'OPEN_WEATHER_MAP_API_KEY'
+token = 'OTUzMzgxMDg2ODU4MTgyNjY3.YjDvVA.VfpJ3t1CQl1Qz_aiEA40MHZ8KVA'
+api_key = 'c2d96ff66912449e996ff66912949ee1'
 client = discord.Client()
-command_prefix = 'w.'
+command_prefix = '!weather_'
 
 @client.event
 async def on_ready():
